@@ -16,10 +16,10 @@ type ToastCardProps = {
 export function ToastCard({ toast }: ToastCardProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.8, y: 18, rotate: -5 }}
-      animate={{ opacity: 1, scale: 1, y: 0, rotate: -1.5 }}
+      initial={{ opacity: 0, scale: 0.8, y: 18 }}
+      animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={CARD_IN}
-      className="flex max-h-[min(15rem,100%)] w-full items-center justify-center rounded-[36px] border-[7px] border-[#ffd84d] bg-white px-6 py-8 shadow-[0_10px_0_rgba(76,29,149,0.35),0_24px_44px_rgba(41,8,74,0.45)]"
+      className="flex max-h-[min(20rem,100%)] w-full items-center justify-center rounded-[36px] border-[7px] border-[#ffd84d] bg-white px-6 py-8 shadow-[0_8px_16px_rgba(20,8,35,0.45),0_24px_48px_rgba(20,8,35,0.3)]"
     >
       <div className="max-h-full overflow-y-auto">
         <AnimatePresence mode="wait" initial={false}>
@@ -29,7 +29,7 @@ export function ToastCard({ toast }: ToastCardProps) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -12, scale: 0.96 }}
             transition={TEXT_SWAP}
-            className="text-center text-xl leading-snug font-semibold text-balance text-[#4c1d95]"
+            className="text-center text-2xl leading-snug font-semibold text-balance text-[#4c1d95]"
           >
             {toast}
           </motion.p>

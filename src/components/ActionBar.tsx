@@ -15,7 +15,7 @@ type ActionBarProps = {
  */
 export function ActionBar({ onGenerate }: ActionBarProps) {
   return (
-    <div className="flex w-full flex-col gap-3">
+    <div className="flex w-full flex-col gap-4">
       <motion.button
         type="button"
         onClick={onGenerate}
