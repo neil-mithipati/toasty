@@ -1,0 +1,13 @@
+{
+  "required": [
+    "lint",
+    "test",
+    "typecheck"
+  ],
+  "pending": [],
+  "commands": {
+    "typecheck": "npm run typecheck",
+    "lint": "npm run lint",
+    "test": "npm run test"
+  }
+}
