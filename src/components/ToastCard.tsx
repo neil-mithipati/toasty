@@ -19,7 +19,7 @@ export function ToastCard({ toast }: ToastCardProps) {
       initial={{ opacity: 0, scale: 0.8, y: 18 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={CARD_IN}
-      className="flex max-h-[min(26rem,100%)] w-full items-center justify-center overflow-y-auto rounded-[36px] border-[7px] border-[#ffd84d] bg-white px-6 py-8 shadow-[0_8px_16px_rgba(20,8,35,0.45),0_24px_48px_rgba(20,8,35,0.3)]"
+      className="flex max-h-[min(26rem,100%)] w-full items-center justify-center overflow-y-auto rounded-[36px] border-[7px] border-[#ffd84d] bg-white px-6 py-8 shadow-[0_6px_10px_-4px_rgba(20,8,35,0.35),0_24px_40px_-10px_rgba(20,8,35,0.4)]"
     >
       <AnimatePresence mode="wait" initial={false}>
         <motion.p
