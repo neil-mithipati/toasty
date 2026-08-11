@@ -27,7 +27,7 @@ export function ActionBar({ onGenerate }: ActionBarProps) {
           aria-hidden
           className="pointer-events-none absolute inset-x-4 top-1.5 h-1/3 rounded-full bg-white/35 blur-[3px]"
         />
-        <span className="relative">Generate</span>
+        <span className="relative">generate</span>
       </motion.button>
 
       <div className="grid grid-cols-2 gap-3">
