@@ -3,16 +3,16 @@
  * Deterministic content selection — no model call.
  */
 export const TOASTS = [
-  "To everyone who answered the group chat. And to the one who didn't — we're talking about you right now.",
-  "May our stories get better every time we tell them, and may nobody at this table fact-check us.",
+  "To the group chat that actually got us here tonight. Miracles do happen.",
+  "May every story we tell get a little better with age, and a lot less accurate.",
   "Here's to the second drink. Smarter than the first, funnier than the third.",
   "To bad ideas with good people. That's the whole trick.",
-  "To whoever's paying tonight. We love you. We'll get the next one.",
-  "To the friends who show up. Not the ones who would have — the ones who did.",
-  "May your ex be doing fine. Just fine. Not great.",
+  "To whoever grabs the check first. We see you, we love you, we owe you.",
+  "To the friends who actually showed up. The rest can read about it tomorrow.",
+  "May your ex be thinking about tonight, and not invited to it.",
   "To tonight: no plans, no photos, no witnesses.",
   "To 'just one drink' — the most beautiful lie we tell each other.",
-  "May we always be this loud, this hungry, and this hard to get rid of.",
+  "To us: too loud, too much, and somehow still invited back.",
 ] as const;
 
 export type Toast = (typeof TOASTS)[number];
