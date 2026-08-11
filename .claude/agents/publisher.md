@@ -20,9 +20,10 @@ Read `.claude/notion.json` for the target page and database IDs. Never guess a
 destination — writing to the wrong Notion page is not something you can undo.
 
 If that file is missing, or if no `mcp__notion__*` tools are available in your tool
-list, fall back: write the same content to `docs/` as markdown, and say so in
-`NOTES`. The fallback is a complete outcome, not a failure. Do not attempt to reach
-Notion by any other route.
+list, fall back: write the README section to `docs/` as markdown, and write the
+docs board content to `docs/features.md` as the same `feature` / `benefit` table
+described below. Say so in `NOTES`. The fallback is a complete outcome, not a
+failure. Do not attempt to reach Notion by any other route.
 
 The MCP server must be named `notion` for the tool grant above to match. If tools
 appear under a different prefix, the grant will not resolve and you should use the
@@ -57,8 +58,27 @@ Four parts, matching the house format:
 
 ### 2. Notion docs board entry
 
-Same four sections, one entry per feature. Concise: a reader should get the shape
-in under a minute.
+A table, not the four-part format from the README. Two columns:
+
+| feature | benefit |
+|---|---|
+
+- **`feature`** — a concise one-liner naming what it does, not how it was built.
+  "Crowd-claim share links," not "Added a `/claim/[id]` route with anonymous
+  Supabase auth"
+- **`benefit`** — a concise one-liner on what it gets the user. Answer "so what,"
+  not "what." "Groups self-serve their own items with no login," not "Improves the
+  splitting flow"
+
+Group related work into one row rather than one row per task. If three tasks
+shipped equal split, by-item split, and proportional tax, that is one row —
+"Equal and by-item splitting with proportional tax" — not three. The board should
+read as a feature list a user would recognize, not a changelog of what got merged.
+A reader should scan the whole table in under a minute.
+
+When a new task extends something already on the board, extend that row's benefit
+rather than appending a new row for the same feature. Check the existing entry
+before writing.
 
 ### 3. Notion kanban update
 
