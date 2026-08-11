@@ -22,6 +22,12 @@ toasty will give you a short, punchy toast, deserving of a cheers
 
 ## Under the hood
 
+toasty was built by a small fleet of AI agents working in sequence:
+- an orchestrator that breaks work into tasks
+- builders of three sizes that pick them up
+- reviewers that check the work
+- a publisher that writes it all down
+
 <p align="center">
   <img src="docs/images/agent-pipeline.png" alt="diagram of the AI agent fleet: orchestrator, builders, reviewers, and publisher" width="480">
 </p>
@@ -33,12 +39,6 @@ toasty will give you a short, punchy toast, deserving of a cheers
 </p>
 
 <p align="center"><strong>Agent Status</strong></p>
-
-toasty was built by a small fleet of AI agents working in sequence:
-- an orchestrator that breaks work into tasks
-- builders of three sizes that pick them up
-- reviewers that check the work
-- a publisher that writes it all down
 
 ## How to use
 
