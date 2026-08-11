@@ -24,11 +24,19 @@ toasty will give you a short, punchy toast, deserving of a cheers
   <img src="docs/images/agent-pipeline.png" alt="diagram of the AI agent fleet: orchestrator, builders, reviewers, and publisher" width="480">
 </p>
 
+<p align="center"><strong>Agent Graph</strong></p>
+
 toasty was built by a small fleet of AI agents working in sequence:
 - an orchestrator that breaks work into tasks
 - builders of three sizes that pick them up
 - reviewers that check the work
 - a publisher that writes it all down
+
+<p align="center">
+  <img src="docs/images/agent-status.png" alt="terminal dashboard showing live agent roles and status, lane budget spent versus cap, and a task summary" width="480">
+</p>
+
+<p align="center"><strong>Agent Status</strong></p>
 
 ## How to use
 
