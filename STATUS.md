@@ -1,12 +1,12 @@
 # Agent status
 
-Updated 2026-08-11 23:26 UTC · regenerated on every task completion.
+Updated 2026-08-11 23:29 UTC · regenerated on every task completion.
 
 ## Spend
 
 | Lane | Spent | Cap | Used |
 |---|---|---|---|
-| default | $0.81 | $5.00 | █░░░░░░░░░ 16% |
+| default | $1.02 | $5.00 | ██░░░░░░░░ 20% |
 
 ## Agents
 
@@ -32,26 +32,26 @@ Updated 2026-08-11 23:26 UTC · regenerated on every task completion.
 ## Recent activity
 
 ```
-2026-08-11T23:17:38Z  default  SubagentStop  
-2026-08-11T23:17:38Z  default  SubagentStop  
-2026-08-11T23:17:55Z  default  SubagentStop  
-2026-08-11T23:17:55Z  default  SubagentStop  
-2026-08-11T23:17:55Z  default  SubagentStop  
-2026-08-11T23:17:55Z  default  SubagentStop  
-2026-08-11T23:17:55Z  default  SubagentStop  
-2026-08-11T23:18:06Z  default  SubagentStop  
-2026-08-11T23:18:06Z  default  SubagentStop  
-2026-08-11T23:18:06Z  default  SubagentStop  
-2026-08-11T23:18:06Z  default  SubagentStop  
-2026-08-11T23:18:06Z  default  SubagentStop  
-2026-08-11T23:23:49Z  default  SubagentStart  publisher
-2026-08-11T23:23:49Z  default  SubagentStart  publisher
-2026-08-11T23:24:11Z  default  SubagentStop  publisher
-2026-08-11T23:26:13Z  default  SubagentStop  
-2026-08-11T23:26:13Z  default  SubagentStop  
-2026-08-11T23:26:13Z  default  SubagentStop  
-2026-08-11T23:26:13Z  default  SubagentStop  
-2026-08-11T23:26:13Z  default  SubagentStop  
+2026-08-11T23:26:17Z  default  SubagentStop  
+2026-08-11T23:26:17Z  default  SubagentStop  
+2026-08-11T23:26:17Z  default  SubagentStop  
+2026-08-11T23:26:17Z  default  SubagentStop  
+2026-08-11T23:26:17Z  default  SubagentStop  
+2026-08-11T23:26:34Z  default  SubagentStop  
+2026-08-11T23:26:34Z  default  SubagentStop  
+2026-08-11T23:26:34Z  default  SubagentStop  
+2026-08-11T23:26:34Z  default  SubagentStop  
+2026-08-11T23:26:34Z  default  SubagentStop  
+2026-08-11T23:26:39Z  default  SubagentStop  
+2026-08-11T23:26:39Z  default  SubagentStop  
+2026-08-11T23:26:39Z  default  SubagentStop  
+2026-08-11T23:26:39Z  default  SubagentStop  
+2026-08-11T23:26:39Z  default  SubagentStop  
+2026-08-11T23:29:14Z  default  SubagentStop  
+2026-08-11T23:29:14Z  default  SubagentStop  
+2026-08-11T23:29:14Z  default  SubagentStop  
+2026-08-11T23:29:14Z  default  SubagentStop  
+2026-08-11T23:29:14Z  default  SubagentStop  
 ```
 
 ---
