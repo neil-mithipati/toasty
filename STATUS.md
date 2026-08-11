@@ -1,12 +1,12 @@
 # Agent status
 
-Updated 2026-08-11 23:45 UTC · regenerated on every task completion.
+Updated 2026-08-11 23:50 UTC · regenerated on every task completion.
 
 ## Spend
 
 | Lane | Spent | Cap | Used |
 |---|---|---|---|
-| default | $1.75 | $5.00 | ███░░░░░░░ 34% |
+| default | $2.21 | $5.00 | ████░░░░░░ 44% |
 
 ## Agents
 
@@ -32,11 +32,6 @@ Updated 2026-08-11 23:45 UTC · regenerated on every task completion.
 ## Recent activity
 
 ```
-2026-08-11T23:29:14Z  default  SubagentStop  
-2026-08-11T23:29:14Z  default  SubagentStop  
-2026-08-11T23:38:22Z  default  SubagentStop  
-2026-08-11T23:38:22Z  default  SubagentStop  
-2026-08-11T23:38:22Z  default  SubagentStop  
 2026-08-11T23:38:22Z  default  SubagentStop  
 2026-08-11T23:38:22Z  default  SubagentStop  
 2026-08-11T23:38:28Z  default  SubagentStop  
@@ -52,6 +47,11 @@ Updated 2026-08-11 23:45 UTC · regenerated on every task completion.
 2026-08-11T23:45:17Z  default  SubagentStart  publisher
 2026-08-11T23:45:17Z  default  SubagentStart  publisher
 2026-08-11T23:45:32Z  default  SubagentStop  publisher
+2026-08-11T23:50:00Z  default  SubagentStop  
+2026-08-11T23:50:00Z  default  SubagentStop  
+2026-08-11T23:50:00Z  default  SubagentStop  
+2026-08-11T23:50:00Z  default  SubagentStop  
+2026-08-11T23:50:00Z  default  SubagentStop  
 ```
 
 ---
